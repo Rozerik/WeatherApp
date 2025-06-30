@@ -1,12 +1,47 @@
-# React + Vite
+🌤 Weather App
+Простое погодное приложение, показывающее текущие погодные условия для любого города.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔧 Основные технологии
+React/Vite
+JavaScript / JSX
+CSS
+Weather API для получения данных
 
-Currently, two official plugins are available:
+📦 Установка и запуск
+Склонировать репозиторий:
+git clone https://github.com/Rozerik/Calculator
+cd weather-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Установить зависимости:
+npm install
 
-## Expanding the ESLint configuration
+Создать .env файл в корне проекта:
+VITE_API_KEY=ваш_ключ_здесь
+(Получить ключ можно на сайте weatherapi.com) 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Запустить локальный сервер:
+npm run dev
+
+🖼 Скриншот приложения
+![Скриншот приложения](public/assets/screenshot.png)
+
+📝 Что умеет приложение
+Ищет погоду по названию города
+Показывает температуру, состояние погоды, скорость ветра, влажность.
+
+🧪 Пример использования
+При вводе названия  города в поисковом поле, можно получить следующую информацию о текущей погоде:
+
+Температура
+Скорость ветра
+Влажность
+Иконка погоды
+
+📎 Дополнительные файлы
+.env.example — пример файла с переменными окружения
+
+🙏 Благодарности
+Спасибо WeatherAPI за предоставление бесплатного API для работы с погодными данными.
+
+👨‍💻 Автор
+Илья Атрохин

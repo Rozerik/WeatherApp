@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Izmir', sans-serif;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  width: 450px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background: #3f24d6;
+  background: linear-gradient(320deg,rgba(63, 36, 214, 1) 0%, rgba(25, 194, 191, 1) 51%, rgba(46, 255, 140, 1) 100%);
+  border-radius: 20px;
+}
+
+.container.expanded {
+  height: 600px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  border-style: none;
+  cursor: pointer;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  border-style: none;
+  color: gray;
+  background-color: white;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  fill: gray;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.weatherContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temperatureText {
+  font-size: 75px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 400;
+}
+
+.weatherDescription {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.error {
+  font-size: 46px;
+  padding-top: 200px;
+}
+
+footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 80px;
+}
+
+.infoSection {
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+.bottomImg {
+  width: 50px;
+  height: 50px;
+}
+
+.subInfoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 380;
+}
